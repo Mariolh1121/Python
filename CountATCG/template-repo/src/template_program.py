@@ -48,6 +48,14 @@ for base in sequence:
         nT+=1
 # Posteriormente se imprime
 
+# ¿Donde lo imprimes? jajaja 
+# Te dejo una versión de código más simple, aún no hemos visto métodos en clase, pero son una cosa maravillosa que permite que puedas hacer un monton de cosas 
+# En este caso usé el método count:
+with open(archivo, 'r') as file:
+    DNA = file.read()
+# Obtenemos la frecuencia de aparicion de cad aletra.
+print(f"El total por base es: A:{ADN.count('A')} C:{ADN.count('C')} T:{ADN.count('T')} G:{ADN.count('G')}")
+
 # ===========================================================================
 # = File                            imports
 # ===========================================================================
